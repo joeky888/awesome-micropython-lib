@@ -1,12 +1,15 @@
 List of extra libs for MicroPython
 
-#### Audio
+### Math
+* [ulinalg](https://github.com/jalawson/ulinalg) Small size matrix handling module with a few linear algebra operations
+
+### Audio
 
 * [micropython-longwave](https://github.com/MattMatic/micropython-longwave) WAV player for MicroPython board.
 * [wave.py](Audio/wave.py) Minimal wave module, copied from MicroPython examples.
 * [chunk.py](Audio/chunk.py) Audio chunk, copied from MicroPython examples.
 
-#### Networking
+### Networking
 
 * [picoweb](https://github.com/pfalcon/picoweb) Really minimal web application framework for MicroPython and its "uasyncio" async framework
 * [utemplate](https://github.com/pfalcon/utemplate) Micro template engine with low memory usage
@@ -15,7 +18,7 @@ List of extra libs for MicroPython
 * [upy-websocket-server](https://github.com/BetaRavener/upy-websocket-server) Micropython (ESP8266) websocket server implementation.
 * [uasyncio.websocket](https://github.com/micropython/micropython-lib/tree/master/uasyncio.websocket.server) Official Micropython websocket server implementation.
 
-#### Database
+### Database
 
 * [micropython-redis](https://github.com/dwighthubbard/micropython-redis) A redis client implementation designed for use with micropython.
 * [nmongo](https://github.com/nakagami/nmongo) MongoDB client for CPython and MicroPython.
@@ -25,7 +28,7 @@ List of extra libs for MicroPython
 * [micropython-filedb](https://github.com/pfalcon/micropython-filedb) Simple file-based ORM for MicroPython
 * [micropython-btreedb](https://github.com/pfalcon/micropython-btreedb) Very simple ORM for MicroPython's btree module
 
-#### UI
+### UI
 
 * [picotui](https://github.com/pfalcon/picotui) Text User Interface (TUI) widget toolkit with minimal dependencies.
 
@@ -35,7 +38,7 @@ List of extra libs for MicroPython
 * [pycom-micropython-sigfox](https://github.com/pycom/pycom-micropython-sigfox) A fork of MicroPython with the ESP32 port customized to run on Pycom's IoT multi-network modules.
 * [circuitpython](https://github.com/adafruit/circuitpython) A fork for teaching coding with microcontrollers.
 
-#### More libraries
+### More libraries
 
 * [pfalcon/micropython-lib](https://github.com/pfalcon/micropython-lib) A lot of more libs ported from CPython and PyPy
 * [pycom-libraries](https://github.com/pycom/pycom-libraries) MicroPython libraries and examples that work out of the box on Pycom's IoT modules.
