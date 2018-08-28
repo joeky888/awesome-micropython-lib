@@ -56,5 +56,6 @@ List of extra libs for MicroPython
 
 ## More libraries
 
+* [micropython/micropython-lib](https://github.com/micropython/micropython-lib) - Official MicroPython libs
 * [pfalcon/micropython-lib](https://github.com/pfalcon/micropython-lib) - A lot of more libs ported from CPython and PyPy
 * [pycom-libraries](https://github.com/pycom/pycom-libraries) - MicroPython libraries and examples that work out of the box on Pycom's IoT modules.
