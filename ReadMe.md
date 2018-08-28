@@ -2,21 +2,30 @@ List of extra libs for MicroPython
 
 ### Math
 * [ulinalg](https://github.com/jalawson/ulinalg) Small size matrix handling module with a few linear algebra operations
+* [MicroMLP](https://github.com/jczic/MicroMLP) A micro artificial neural network multilayer perceptron
+
+### Threading
+* [MicroWorkers](https://github.com/jczic/MicroWorkers) A micro workers class that easily manages a pool of threads
 
 ### Audio
 
 * [micropython-longwave](https://github.com/MattMatic/micropython-longwave) WAV player for MicroPython board.
 * [wave.py](Audio/wave.py) Minimal wave module, copied from MicroPython examples.
 * [chunk.py](Audio/chunk.py) Audio chunk, copied from MicroPython examples.
+* [KT403A-MP3](https://github.com/jczic/KT403A-MP3) MicroPython driver for KT403A MP3 chip
 
 ### Networking
 
 * [picoweb](https://github.com/pfalcon/picoweb) Really minimal web application framework for MicroPython and its "uasyncio" async framework
 * [utemplate](https://github.com/pfalcon/utemplate) Micro template engine with low memory usage
-* [Noggin](https://github.com/larsks/micropython-noggin) A very simple web server for MicroPython
+* [Noggin](https://github.com/larsks/micropython-noggin) Web server for MicroPython
 * [uwebsockets](https://github.com/danni/uwebsockets) An implementation of websockets for the ESP8266
 * [upy-websocket-server](https://github.com/BetaRavener/upy-websocket-server) Micropython (ESP8266) websocket server implementation.
 * [uasyncio.websocket](https://github.com/micropython/micropython-lib/tree/master/uasyncio.websocket.server) Official Micropython websocket server implementation.
+* [MicroWebCli](https://github.com/jczic/MicroRESTCli) HTTP Web client
+* [MicroRESTCli](https://github.com/jczic/MicroRESTCli) JSON REST Web client based on MicroWebCli
+* [MicroDNSSrv](https://github.com/jczic/MicroDNSSrv) DNS server for MicroPython to simply respond to A queries on multi-domains
+* [MicroWebSrv](https://github.com/jczic/MicroWebSrv) HTTP Web server that supports WebSockets, html/python language templating and routing
 
 ### Database
 
@@ -32,7 +41,7 @@ List of extra libs for MicroPython
 
 * [picotui](https://github.com/pfalcon/picotui) Text User Interface (TUI) widget toolkit with minimal dependencies.
 
-#### Forks
+### Forks
 
 * [pfalcon/micropython](https://github.com/pfalcon/micropython) Rebase on the upstream.
 * [pycom-micropython-sigfox](https://github.com/pycom/pycom-micropython-sigfox) A fork of MicroPython with the ESP32 port customized to run on Pycom's IoT multi-network modules.
