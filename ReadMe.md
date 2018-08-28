@@ -41,6 +41,13 @@ List of extra libs for MicroPython
 
 * [picotui](https://github.com/pfalcon/picotui) - Text User Interface (TUI) widget toolkit with minimal dependencies.
 
+## Util
+
+* [mpfshell](https://github.com/wendlers/mpfshell) - A simple shell based file explorer for up/downloading files
+* [upy-shell](https://github.com/dhylands/upy-shell) - Command line based shell for MicroPython
+* [rshell](https://github.com/dhylands/rshell) - Remote MicroPython shell.
+* [Micropython-Editor](https://github.com/robert-hh/Micropython-Editor) - A small text editor.
+
 ## Forks
 
 * [pfalcon/micropython](https://github.com/pfalcon/micropython) - Rebase on the upstream.
